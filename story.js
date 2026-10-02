@@ -13,13 +13,13 @@
    ===================================================================== */
 
 const PHOTOS = {
-  mirror:   "images/mirror.jpg",
-  roses:    "images/roses-and-mitsi.jpg",
-  post:     "images/dk-post.jpg",
-  card:     "images/birthday-card.jpg",
-  coloring: "images/coloring-night.jpg",
-  words:    "images/word-games.jpg",
-  trunk:    "images/trunk.jpg"
+  mirror:   "mirror.jpg",
+  roses:    "roses-and-mitsi.jpg",
+  post:     "dk-post.jpg",
+  card:     "birthday-card.jpg",
+  coloring: "coloring-night.jpg",
+  words:    "word-games.jpg",
+  trunk:    "trunk.jpg"
 };
 
 const STORY = {
