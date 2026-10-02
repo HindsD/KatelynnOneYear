@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#222222">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>D + K: Our First Year</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💛</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="hud">
+    <span id="hearts"></span>
+    <span><b>D + K</b></span>
+    <span id="tasks"></span>
+  </div>
+  <div class="screen">
+    <canvas id="game" aria-label="Pixel adventure game"></canvas>
+    <div class="overlay hidden" id="overlay"></div>
+  </div>
+  <div class="pad">
+    <div class="dpad">
+      <button class="u" data-dir="up" aria-label="Up">▲</button>
+      <button class="l" data-dir="left" aria-label="Left">◀</button>
+      <button class="r" data-dir="right" aria-label="Right">▶</button>
+      <button class="d" data-dir="down" aria-label="Down">▼</button>
+    </div>
+    <button class="abtn" id="aBtn" aria-label="Interact">A</button>
+  </div>
+  <div class="foot">Arrows or WASD to walk. Space, Enter, or A to talk and interact.</div>
+</div>
+<div class="photo hidden" id="photo" role="dialog" aria-modal="true">
+  <figure><img id="photoImg" alt=""><figcaption id="photoCap"></figcaption></figure>
+  <button class="pix" id="photoClose">Close</button>
+</div>
+<script src="story.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
